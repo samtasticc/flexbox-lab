@@ -11,8 +11,30 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #destinations {
+    display: flex;
+    font-size: 13px;
+    height: 50px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
   }
   
+  #actions {
+    display: flex;
+    font-size: 13px;
+    height: 50px;
+    width: 200px;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
   p {
     margin: 0;
   }
