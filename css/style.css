@@ -32,7 +32,27 @@
     width: 200px;
     justify-content: flex-end;
     align-items: center;
+  }
 
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #trending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
   }
 
   p {
